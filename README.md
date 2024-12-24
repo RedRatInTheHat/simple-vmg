@@ -48,4 +48,5 @@ No modules.
 
 | Name | Description |
 |------|-------------|
+| <a name="output_target_group_id"></a> [target\_group\_id](#output\_target\_group\_id) | The ID of created target group |
 | <a name="output_vm_ips"></a> [vm\_ips](#output\_vm\_ips) | Private and public ips of created machines |

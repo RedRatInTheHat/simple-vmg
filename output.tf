@@ -7,3 +7,8 @@ output "vm_ips" {
   ]
   description = "Private and public ips of created machines"
 }
+
+output "target_group_id" {
+  value = yandex_compute_instance_group.vm-group.application_load_balancer.0.target_group_id
+  description = "The ID of created target group"
+}
